@@ -21,7 +21,7 @@ namespace ShipHunter
         {
             Trajetory = new Vector2(seed.Next(100), seed.Next(15));
             Position = new Vector2(seed.Next(-10000,10000), seed.Next(-10000,10000));
-            Scale = seed.Next(100, 500) / 100;
+            Scale = seed.Next(100, 500) / 120;
 
         }
     }
